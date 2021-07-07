@@ -1,0 +1,82 @@
+body{
+  color: white;
+  background-image: url(background.jpg);
+  /* width: 80%; */
+  /* height: auto; */
+  background-size: contain;
+  background-repeat:no-repeat;
+  padding: 120px;
+  background-position: center center;
+  background-attachment:local;
+}
+
+.base{
+  align-items: center;
+  background-color: black ;
+  opacity: 0.5;
+  height: auto;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 50px;
+
+}
+
+.contenitore{
+height: auto;
+width: auto;
+margin: 0;
+padding: 5;
+text-align:center;
+}
+
+.logo-text{
+  text-align: center;
+  font-size:40px;
+  padding: 15px;
+  border: 15;
+  font-family: 'Poppins', sans-serif;
+  color: #00dd00 ;r
+
+}
+
+.testo-centrale{
+  color: #00dd00 ;
+  }
+
+.navigatore{
+  margin: auto;
+  background-color: #00dd00;
+  height: 50px;
+
+  }
+
+.pulsanti {
+text-align: center;
+padding: 15px;
+margin: auto;
+
+}
+
+.testo{
+font-size: 40px;
+font-family: 'Poppins', sans-serif;
+
+}
+.carica1{
+  background-color: orange;
+  width:350px;
+  height:30px;
+  border-radius: 3px;
+}
+.carica2{
+  background-color: lightgreen;
+  width:600px;
+  height:30px;
+  border-radius: 3px;
+}
+.carica3{
+  background-color: red;
+  width:200px;
+  height:30px;
+  border-radius: 3px;
+}
